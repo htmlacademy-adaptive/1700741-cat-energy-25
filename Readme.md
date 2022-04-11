@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Алена Чеснокова](https://up.htmlacademy.ru/adaptive/25/user/1700741).
-* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/id252055)git.
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/id252055).
 
 ---
 
