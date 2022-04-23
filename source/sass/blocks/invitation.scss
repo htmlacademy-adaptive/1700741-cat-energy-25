@@ -1,0 +1,33 @@
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 20px;
+}
+
+.invitation__description {
+  width: 139px;
+  font-family: "Oswaldregular", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.invitation__address {
+  display: block;
+  width: 139px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.invitation__map {
+  height: 362px;
+  background-image: url("img/map.jpg");
+}
+

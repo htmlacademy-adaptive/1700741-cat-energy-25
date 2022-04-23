@@ -1,0 +1,53 @@
+.how-it-work {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.how-it-work__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.how-it-work__item {
+  margin-bottom: 20px;
+  margin-right: 91px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
+  &--iconleaf::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+  }
+
+  &--iconleaf::before {
+    content: url("img/iconleaf.svg");
+  }
+
+  &--iconpowder::before {
+    content: url("img/iconpowder.svg");
+  }
+
+  &--iconspot::before {
+    content: url("img/iconspot.svg");
+  }
+
+  &--iconwatch::before {
+    content: url("img/iconspot.svg");
+  }
+}
+

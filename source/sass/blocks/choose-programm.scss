@@ -1,0 +1,43 @@
+.choose-programm {
+
+}
+
+.choose-programm__wrapper {  
+  background: url(img/backgroundcat.jpg) rgba(104, 183, 56, 0.85) bottom center no-repeat;
+}
+
+.choose-programm__title {
+  margin: 27px 36px 25px;
+  font-family: "Oswaldregular", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.choose-programm__subtitle {
+  margin-left: 62px;
+  margin-right: 62px;
+  padding-bottom: 164px;
+  font-family: "Oswaldregular", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.choose-programm__image {
+  display: block;
+  margin-top: -135px;
+  margin-bottom: 3px;
+}
+
+.choose-programm__button {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
