@@ -3,17 +3,32 @@
   flex-direction: column;
 }
 
+
+/*не срабатывает изменение картинки при наведение, почему появляется серый фон*/
 .main-navigation__toogle {
   display: block;
-  background: url(img/menu-mobile.svg);
+  width: 24px;
+  height: 20px;
+  margin-left: auto;
+  background-image: url(../img/menu-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: none;
+  border: none;
 
   &:hover,
-  &:active {
-    background: url(img/menu-mobile.svg);
+  &:active,
+  &:focus {
+    background-image: url(../img/close-menu.svg);
+    background-color: none;
   }
 }
 
 .navigation-mobile__list {
+  display: none;
+}
+
+.main-navigation__toogle:hover + .navigation-mobile__list {
+  display: block;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -21,7 +36,16 @@
   z-index: 1;
 }
 
-.main-navigation__item {
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
