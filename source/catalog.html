@@ -18,15 +18,15 @@
       <button class="main-navigation__toogle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <ul class="main-navigation__list">
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="/">Главная</a>
+      <ul class="main-navigation__list hide">
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="/">Главная</a>
         </li>
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="catalog.html">Каталог продукции</a>
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="catalog.html">Каталог продукции</a>
         </li>
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="form.html">Подбор программы</a>
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="form.html">Подбор программы</a>
         </li>
       </ul>
     </nav>
@@ -259,7 +259,7 @@
       </div>
     </section>
     <section class="catalog-main__additional-goods additional-goods">
-      <h2 class="additional-goods__title">Дополнительные товары</h2>
+      <h2 class="additional-goods__title"><span class="additional-goods__title-content">Дополнительные товары</span></h2>
       <ul class="additional-goods__list">
         <li class="additional-goods__item additional-product">
           <h3 class="additional-product__title">Сахарозаменитель</h3>
@@ -325,28 +325,31 @@
   <footer class="main-footer">
     <section class="main-footer__invitation invitation">
       <h2 class="invitation__title visually-hidden">Дилерам</h2>
-      <p class="invitation__description">приглашаем к сотрудничеству дилеров!
+      <p class="invitation__description">приглашаем к сотрудниче&shy;ству дилеров!
       </p>
-      <address class="invitation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-      <div class="invitation__map"></div>
+      <address class="invitation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>      
+    </section>
+    <section class="main-footer__map">
+      <h2 class="visually-hidden">Карта</h2>
     </section>
     <section class="main-footer__contacts contacts">
       <h2 class="visually-hidden">Как с нами связаться</h2>
       <a class="contacts__link contacts-link" href="/">
-        <img class="contacts-link__image" src="img/logo.svg" width="128" height="24" alt="Логотип"></a>
+        <img class="contacts-link__image" src="img/footer-logo.svg" width="128" height="24" alt="Логотип">
+      </a>
       <ul class="contacts__list socials">
-        <li class="contacts__item"><a class="contacts__link contacts__link--vk" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--vk" href="/"><span
               class="visually-hidden">вконтакте</span></a>
         </li>
-        <li class="contacts__item"><a class="contacts__link contacts__link--utube" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--utube" href="/"><span
               class="visually-hidden">U-tube</span></a>
         </li>
-        <li class="contacts__item"><a class="contacts__link contacts__link--telegramm" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--telegramm" href="/"><span
               class="visually-hidden">Telegramm</span></a>
         </li>
       </ul>
-      <a class="contacts__link logo-htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
-        <img class="logo-htmlacademy__image" src="img/logohtmlacademy.svg" width="114" height="18"
+      <a class="contacts__link-htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
+        <img class="contacts__htmlacademy-image" src="img/logo-htmlacademy.svg" width="114" height="18"
           alt="Логотип HTMLACADEMY">
       </a>
     </section>

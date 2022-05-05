@@ -18,24 +18,23 @@
       <button class="main-navigation__toogle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <ul class="main-navigation__list">
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="/">Главная</a>
+      <ul class="main-navigation__list hide">
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="/">Главная</a>
         </li>
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="catalog.html">Каталог продукции</a>
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="catalog.html">Каталог продукции</a>
         </li>
-        <li class="main-navigation__item mobile-menu">
-          <a class="mobile-menu__title" href="form.html">Подбор программы</a>
+        <li class="main-navigation__item">
+          <a class="main-navigation__link" href="form.html">Подбор программы</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="index-main">
     <section class="index-main__choose-programm choose-programm">
-      <!--можно ведь убрать обертку?-->
       <div class="choose-programm__wrapper">
-        <h1 class="choose-programm__title">Функциональное питание для котов</h1>
+        <h1 class="choose-programm__title">Функциональ&shy;ное питание для котов</h1>
         <p class="choose-programm__subtitle">Занялся собой? Займись котом!</p>
       </div>
         <img class="choose-programm__image" src="img/catenergy.png" width="280" height="270" alt="Большая банка корма.">
@@ -66,7 +65,7 @@
       </ul>
     </section>
     <section class="index-main__how-it-work how-it-work">
-      <h3 class="visually-hidden">Как это работает</h3>
+      <h3 class="how-it-work__title">Как это работает</h3>
       <ul class="how-it-work__list">
         <li class="how-it-work__item how-it-work__item--iconleaf">
           Функциональное питание содержит только полезные питательные вещества.
@@ -76,7 +75,7 @@
         <li class="how-it-work__item how-it-work__item--iconspot">
           Замените один-два приема обычной еды на наше функциональное питание.
         </li>
-        <li class="how-it-work__item how-it-work__item--watch">
+        <li class="how-it-work__item how-it-work__item--iconwatch">
           Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
         </li>
       </ul>
@@ -110,29 +109,31 @@
   <footer class="main-footer">
     <section class="main-footer__invitation invitation">
       <h2 class="invitation__title visually-hidden">Дилерам</h2>
-      <p class="invitation__description">приглашаем к сотрудничеству дилеров!
+      <p class="invitation__description">приглашаем к сотрудниче&shy;ству дилеров!
       </p>
-      <address class="invitation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-      <div class="invitation__map"></div>
+      <address class="invitation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>      
+    </section>
+    <section class="main-footer__map">
+      <h2 class="visually-hidden">Карта</h2>
     </section>
     <section class="main-footer__contacts contacts">
       <h2 class="visually-hidden">Как с нами связаться</h2>
       <a class="contacts__link contacts-link" href="/">
-        <img class="contacts-link__image" src="img/logo.svg" width="128" height="24" alt="Логотип"></a>
+        <img class="contacts-link__image" src="img/footer-logo.svg" width="128" height="24" alt="Логотип">
+      </a>
       <ul class="contacts__list socials">
-        <li class="contacts__item"><a class="contacts__link contacts__link--vk" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--vk" href="/"><span
               class="visually-hidden">вконтакте</span></a>
         </li>
-        <li class="contacts__item"><a class="contacts__link contacts__link--utube" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--utube" href="/"><span
               class="visually-hidden">U-tube</span></a>
         </li>
-        <li class="contacts__item"><a class="contacts__link contacts__link--telegramm" href="/"><span
+        <li class="contacts__item"><a class="socials__link socials__link--telegramm" href="/"><span
               class="visually-hidden">Telegramm</span></a>
         </li>
       </ul>
-      <a class="contacts__link-htmlacademy  logo-htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
-        HTML Academy
-        <img class="logo-htmlacademy__image" src="img/logohtmlacademy.svg" width="114" height="18"
+      <a class="contacts__link-htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
+        <img class="contacts__htmlacademy-image" src="img/logo-htmlacademy.svg" width="114" height="18"
           alt="Логотип HTMLACADEMY">
       </a>
     </section>

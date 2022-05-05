@@ -1,14 +1,11 @@
 .main-navigation {
-  display: flex;
-  flex-direction: column;
 }
-
 
 /*не срабатывает изменение картинки при наведение, почему появляется серый фон*/
 .main-navigation__toogle {
   display: block;
   width: 24px;
-  height: 20px;
+  height: 18px;
   margin-left: auto;
   background-image: url(../img/menu-mobile.svg);
   background-repeat: no-repeat;
@@ -23,29 +20,44 @@
   }
 }
 
-.navigation-mobile__list {
-  display: none;
-}
-
-.main-navigation__toogle:hover + .navigation-mobile__list {
-  display: block;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  position: relative;
-  z-index: 1;
-}
-
-
-.visually-hidden {
+.main-navigation__list {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 48px;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  list-style-type: none;
 }
+
+.main-navigation__item {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.main-navigation__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &:visited {
+    opacity: 0.3;
+  }
+
+  &:hover {
+    border-bottom: 1px solid #68B738;
+  }
+}
+

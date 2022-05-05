@@ -1,37 +1,39 @@
 .sistem {
   display: grid;
   grid-template-columns: 71px auto;
-  grid-template-rows: 96px auto 57px;
-  margin-left: 20px;
-  margin-right: 20px;
+  grid-template-rows: auto auto 57px;
+  padding: 20px;
+  padding-bottom: 0;
   background: #F2F2F2;
 }
 
 .sistem__icon {
+  position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
   justify-self: start;
-  align-self: center;
-  padding-right: 2px;
-  width: 50px;
-  height: 50px;
+  align-self: start;
+  margin-left: 2px;
+  margin-top: 4px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background-color:#68B738;
 
   &--slim::after {
-    content: url("img/catslim.png");
-    margin-left: -100%;
+    content: url("../img/catslim.png");
+    position: absolute;
     overflow: visible;
-    top: 50%;
-    transform: translateY(-50%);
+    top: -4px;
+    left: 7px;
   }
 
-  &--mass {
-    content: url("img/catmass.png");
-    margin-left: -100%;
+  &--mass::after {
+    content: url("../img/catmass.png");
+    position: absolute;
     overflow: visible;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 15px;
+    left: -6px;
   }
 
 }
@@ -40,14 +42,11 @@
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: start;
-  align-self: center;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  margin: 10px auto 29px 0;
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
-  color: #000000;  
+  color: #000000;
 }
 
 .sistem__description {
@@ -55,11 +54,11 @@
   grid-row: 2/3;
   justify-self: start;
   align-self: start;
-  margin-bottom: 23px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-bottom: 23px;
   border-bottom: 1px solid #D9D9D9;;
   font-family: "Arial";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -71,9 +70,6 @@
   grid-row: 3/4;
   justify-self: start;
   align-self: center;
-  font-family: "Oswald", "Arial", sans-serif;;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
@@ -81,10 +77,20 @@
   color: #000000;
 
   &::after {
-    content: url("img/arrow.svg");
-    padding-right: 15px;
+    content: url("../img/arrow.svg");
+    margin-left: 15px;
+  }
+
+}
+
+.sistem__link:hover,
+.sistem__link:focus {
+
+  &::after {
+    content: url("../img/arrow-long.svg");
   }
 }
 
-
-
+.sistem__link:active {
+  opacity: 0.3;
+}

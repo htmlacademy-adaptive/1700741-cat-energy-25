@@ -1,15 +1,12 @@
-
-/*почему странный размер этого блока. Он же должен быть по факту 100%-20рх-20рх слева и справа*/
-
 .main-header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  padding: 10px 20px 18px;
+  margin: 10px 20px 18px;
+  padding: 0; 
+ /* outline: 1px solid red;*/
 }
 
 .main-header__logo-link {
@@ -27,4 +24,7 @@
   &:active {
     opacity: 0.6;
   }
+}
+
+.main-header__navigation {
 }

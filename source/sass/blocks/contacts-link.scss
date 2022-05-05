@@ -1,11 +1,20 @@
 .contacts-link {
   display: block;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
+  border-bottom: 2px solid #D9D9D9;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .contacts-link__image {
   display: block;
+  margin: 39px auto 32px;
 }
 

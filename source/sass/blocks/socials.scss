@@ -1,0 +1,36 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  height: 22px;
+  max-width: 280px;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+
+.socials__link {
+  display: block;
+  width: 27px;
+  height: 19px;
+
+  &--vk {
+    background: url("../img/vk.svg") no-repeat center;
+  }
+
+  &--utube {
+    background: url("../img/utube.svg") no-repeat center;
+  }
+
+  &--telegramm {
+    background: url("../img/telegramm.svg") no-repeat center;
+  }
+
+  &:hover,
+  &:focus {
+    fill: #68B738;
+  }
+
+  &:active {
+    fill: #68B738;
+    opacity: 0.6;
+  }
+}

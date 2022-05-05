@@ -1,0 +1,44 @@
+.additional-product {
+  padding-top: 13px;
+  border-top: 1px solid #CDCDCD;
+}
+
+.additional-product__title {
+  margin: 0;
+  margin-bottom: 13px;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.additional-product__description {
+
+
+}
+
+.additional-product__characteristics {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-bottom: 15px;
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+.additional-product__parameter {
+
+}
+
+.additional-product__price {
+
+}
+
+.additional-product__button {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 19px;
+}

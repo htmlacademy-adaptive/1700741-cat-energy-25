@@ -1,18 +1,18 @@
 .invitation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 26px 20px;
 }
 
 .invitation__description {
   width: 139px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  margin: 0;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  word-wrap: break-word;
 }
 
 .invitation__address {
@@ -25,9 +25,3 @@
   line-height: 20px;
   color: #444444;
 }
-
-.invitation__map {
-  height: 362px;
-  background-image: url("img/map.jpg");
-}
-

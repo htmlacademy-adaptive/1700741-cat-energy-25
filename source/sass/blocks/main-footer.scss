@@ -1,11 +1,19 @@
 .main-footer {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0;  
+  background: #F2F2F2;
 }
 
 .main-footer__invitation {
   margin: 0;
+}
+
+.main-footer__map {
+  margin: 0;
+  width: 100%;
+  height: 362px;
+  background-image: url("../img/map.jpg");
 }
 
 .main-footer__contacts {

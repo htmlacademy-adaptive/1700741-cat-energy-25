@@ -1,25 +1,27 @@
 .index-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   flex-grow: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .index-main__choose-programm {
   width: 100%;
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
 }
 
 .index-main__sistems {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px 20px;
 }
 
 .index-main__how-it-work {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 49px;
+  margin: 0 20px 49px;
 }
 
 .index-main__example {
-  width: 100%;
-  margin-bottom: 40px;
 }
