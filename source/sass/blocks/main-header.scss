@@ -1,0 +1,30 @@
+.main-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 10px 20px 18px;
+  padding: 0; 
+ /* outline: 1px solid red;*/
+}
+
+.main-header__logo-link {
+  text-decoration: none;
+}
+
+.main-header__logo-image {
+  display: block;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.main-header__navigation {
+}

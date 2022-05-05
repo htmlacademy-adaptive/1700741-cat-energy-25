@@ -1,0 +1,63 @@
+.main-navigation {
+}
+
+/*не срабатывает изменение картинки при наведение, почему появляется серый фон*/
+.main-navigation__toogle {
+  display: block;
+  width: 24px;
+  height: 18px;
+  margin-left: auto;
+  background-image: url(../img/menu-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: none;
+  border: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: url(../img/close-menu.svg);
+    background-color: none;
+  }
+}
+
+.main-navigation__list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 48px;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.main-navigation__item {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.main-navigation__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &:visited {
+    opacity: 0.3;
+  }
+
+  &:hover {
+    border-bottom: 1px solid #68B738;
+  }
+}
+

@@ -1,0 +1,36 @@
+.catalog-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+/*Почему на макете заголовок в 1 строку, а у меня в две. Мне кажется что-то со шрифтами*/
+
+.catalog-main__main-title {
+  padding: 27px 20px 41px 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.catalog-main__catalog {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.catalog-main__show-more {
+  width: 100%;
+}
+
+.catalog-main__additional-goods {
+  width: 100%;
+}
+
+.catalog-main__gift {
+  align-self: stretch;
+  margin: 35px 20px;
+}

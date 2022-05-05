@@ -1,0 +1,61 @@
+.show-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 25px 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.show-more__plus {
+  align-self: stretch;
+  height: 30px;
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 23px;
+}
+
+/*не совпадает шрифт на макете и в верстке*/
+
+.show-more__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+
+}
+
+.show-more__description {
+  margin: 0;
+  margin-bottom: 21px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
+
+.show-more__button {
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  background-color: #F2F2F2;
+
+  &:hover,
+  &:focus {
+    background-color: #EBEBEB;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

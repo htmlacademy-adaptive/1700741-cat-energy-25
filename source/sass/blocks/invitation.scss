@@ -1,0 +1,27 @@
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 20px;
+}
+
+.invitation__description {
+  width: 139px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  word-wrap: break-word;
+}
+
+.invitation__address {
+  display: block;
+  width: 139px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
